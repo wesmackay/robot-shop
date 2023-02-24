@@ -13,4 +13,6 @@ open "server:8080" or "192.168.3.22:8080"
 - merging changes directly to the master branch could potentially  break/misconfigure the application.  The master branch should be the golden image that is trusted for deployments which would cause issues with anyone trying to deploy the app.
 - I would prevent it by going to Github Repo -> Settings -> Branches -> Branch Protection Rules and add a rule stating "Require a pull request before merging".
 
-![[homepage.png]]
+![Screenshot](homepage.png)
+
+![Screenshot](homepage-2.png)
