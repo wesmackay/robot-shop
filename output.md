@@ -14,3 +14,5 @@ open "server:8080" or "192.168.3.22:8080"
 - I would prevent it by going to Github Repo -> Settings -> Branches -> Branch Protection Rules and add a rule stating "Require a pull request before merging".
 
 ![[homepage.png]]
+
+![[homepage-2.png]]
